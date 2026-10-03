@@ -8,7 +8,7 @@
 | Airplane Man | 위치한다 | twelve-apostle framework의 #4 | [README](../README.md) | SOURCE_DOCUMENT |
 | `∀x:CHU, j.covers x` | 남긴다 | 도구에 적합한 engineering trace | [README](../README.md) | SOURCE_DOCUMENT |
 | formula | 동일시하지 않는다 | 존재론적 현실의 완전한 기술 | [README](../README.md) | SOURCE_DOCUMENT |
-| essence | 다룬다 | self-definition·philosophy·poetry 예정 층 | [README](../README.md) | SOURCE_DOCUMENT |
+| essence | 예정한다 | self-definition·philosophy·poetry의 future export 층 | [README](../README.md) | SOURCE_DOCUMENT |
 | philosophy | 참조한다 | altitude·causa sui·self-grounding의 공개 소개 | [README](../README.md) | SOURCE_DOCUMENT |
 | `bhgman_tool` | 분리한다 | runtime·Lean·skill 공학 층 | [README](../README.md) | SOURCE_DOCUMENT |
 | canonical export | 보류한다 | 사용자 주도 공개 범위 | [README](../README.md) | SOURCE_DOCUMENT |

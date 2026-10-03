@@ -4,4 +4,4 @@
 
 공개 README는 이 층을 `∀x:CHU, j.covers x` 같은 공학적 trace와 동일시하지 않는다. 해당 표기는 도구에 옮길 수 있는 흔적이고, 이 저장소가 소개하는 것은 존재론·미학·철학적 읽기다([README](../README.md)).
 
-현재 공개 상태는 seed이며, canonical export는 user-paced라고 명시돼 있다([README](../README.md)). 따라서 빈 영역을 추정 서사로 채우거나 비공개 자료를 보충 근거로 쓰지 않는다.
+현재 공개 상태는 seed이며, canonical export는 user-paced라고 명시돼 있다([README](../README.md)). README가 예정으로 열어 둔 `essence/`, `philosophy/`, `poetry/`, `lean/`은 현재 공개 corpus가 아니라 future path다. 따라서 빈 영역을 추정 서사로 채우거나 비공개 자료를 보충 근거로 쓰지 않는다.
