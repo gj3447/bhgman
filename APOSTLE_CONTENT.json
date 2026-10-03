@@ -1,0 +1,35 @@
+{
+  "schema": "apostle-content/1",
+  "position": 4,
+  "repository": "gj3447/bhgman_essence",
+  "source_repository": "https://github.com/gj3447/bhgman_essence",
+  "source_revision": "1472943b7189a336ae1a1e92feade893f773784c",
+  "documents": [
+    {
+      "uid": "apostle-document:a0b78ea45cb8d7c1793745410949ed792898b9073fed060660c8f25498b9fa26",
+      "repository_path": "README.md",
+      "source_path": "README.md",
+      "source_revision": "1472943b7189a336ae1a1e92feade893f773784c",
+      "sha256": "e7852b0ece69e7e2d44e05f0c98996bf6abb588862dd78ac6e22c424d0bc68bf",
+      "bytes": 6582,
+      "authority": "SOURCE_DOCUMENT"
+    }
+  ],
+  "guides": [
+    {
+      "repository_path": "docs/APOSTLE_INDEX.md",
+      "sha256": "5e008e4e41db7157d42eeee018654d08a1fe4a9a0098831f8049165ef4b6d825",
+      "authority": "SECONDARY_AI"
+    },
+    {
+      "repository_path": "docs/APOSTLE_WHAT_IS.md",
+      "sha256": "e8de14cbadf7bdeeab6d1029c90d3dade3d9b474012af5d74ae3f6fb914c5d14",
+      "authority": "SECONDARY_AI"
+    },
+    {
+      "repository_path": "docs/APOSTLE_HOW_TO.md",
+      "sha256": "c3eb92197d06accdd14045dd22f5e3bd07cd6fc410407a6d66219a381cbfd410",
+      "authority": "SECONDARY_AI"
+    }
+  ]
+}
