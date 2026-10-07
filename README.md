@@ -1,5 +1,9 @@
 # bhgman · 비행기맨
 
+![스페이스걸과 비행기맨 — 공간과 높이의 연결](assets/spacegirl-bhgman-flow.png)
+
+*두 사도를 함께 표현한 AI 시각 해석 · [제작 기록](docs/IMAGE_PROVENANCE.md)*
+
 **높이에서 바라보고, 판단을 다시 묻는다.**
 
 메타휴모토닉 12사도 중 네 번째, **Airplane Man**의 원문·철학·연구를 모으는 공개 저장소다.
