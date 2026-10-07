@@ -70,5 +70,27 @@
       "sha256": "82c47ec210c398a7c2e31464f7e93361ba8fa48e9ee2d96ba43272b9216d43d0",
       "authority": "USER_PRIMARY"
     }
+  },
+  "publication_policy": {
+    "requested_visibility": "PUBLIC",
+    "license": "LicenseRef-MetaHumotonic-1.1",
+    "license_path": "LICENSE",
+    "license_notice": "LICENSE-NOTICE.md",
+    "user_source": {
+      "path": "USER_PUBLICATION.txt",
+      "sha256": "60e80db3c70043865f8421e9a3f820714de673882ceb27feafe342b41f35b8e2",
+      "authority": "USER_PRIMARY"
+    },
+    "source_copies": "Preserve upstream licenses, identity, revision, content hash and authority; imported source text is not newly ratified canon."
+  },
+  "research_atlas": {
+    "path": "graph/research-atlas.json",
+    "guide": "docs/RESEARCH_ATLAS.md",
+    "validation": [
+      "python3",
+      "scripts/check_atlas.py"
+    ],
+    "authority": "SECONDARY_AI",
+    "scope": "OWNER_LOCAL_SOURCE_NAVIGATION"
   }
 }

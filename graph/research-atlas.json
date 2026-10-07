@@ -1,0 +1,664 @@
+{
+  "schema": "bhgman-research-atlas/1",
+  "scope": "Repository-local reading map; not a shared-KG write or runtime declaration.",
+  "repository": "gj3447/bhgman",
+  "generated_by": {
+    "authority": "SECONDARY_AI",
+    "purpose": "Provenance-preserving navigation of existing source material"
+  },
+  "predicate_contracts": [
+    {
+      "type": "PARTICIPATES_IN",
+      "domain": "Persona",
+      "range": "RelationTopic",
+      "direction": "source_to_target",
+      "cardinality": "many_to_many",
+      "meaning": "A persona appears in a source-attested relation topic."
+    },
+    {
+      "type": "HAS_READING_TOPIC",
+      "domain": "Persona",
+      "range": "Topic",
+      "direction": "source_to_target",
+      "cardinality": "one_to_many",
+      "meaning": "A topic is a source-navigation topic for the persona."
+    },
+    {
+      "type": "HAS_ROSTER_TOPIC",
+      "domain": "Persona",
+      "range": "Topic",
+      "direction": "source_to_target",
+      "cardinality": "one_to_many",
+      "meaning": "A source document records a roster topic for the persona."
+    },
+    {
+      "type": "HAS_HISTORICAL_HOME",
+      "domain": "Persona",
+      "range": "HistoricalTopic",
+      "direction": "source_to_target",
+      "cardinality": "one_to_many",
+      "meaning": "A previous repository home is retained as history, not an active persona."
+    },
+    {
+      "type": "REFERENCES",
+      "domain": "Topic",
+      "range": "ExternalKGRecord",
+      "direction": "source_to_target",
+      "cardinality": "many_to_many",
+      "meaning": "A locally authored navigation topic points to a read-only external KG record."
+    }
+  ],
+  "source_artifacts": [
+    {
+      "uid": "source:sym:index",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/INDEX.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/INDEX.md",
+      "sha256": "2bd7eb9844ac7ce4248bed9934cfa49b352671dcba96029b2ed37cbb5861ef82",
+      "bytes": 10866,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:core",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/SOURCES.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/SOURCES.md",
+      "sha256": "c250458af3aa1d64da3e586ed455ee449ccde6fa74742fc7e30bf1bf45edf461",
+      "bytes": 13965,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:seedman",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/seedman/SOURCES.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/seedman/SOURCES.md",
+      "sha256": "120b77610e4f2c7628fc4bc21162e063f22ee64c57741bae4cfc4e7eac0fe7d2",
+      "bytes": 39237,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:prometheus",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/prometheus/SOURCES.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/prometheus/SOURCES.md",
+      "sha256": "d46eb94b550f939dd6cd8a3d704c4071c27222d75151d3090df2e3e224d42618",
+      "bytes": 35431,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:naesengmoon",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/taliban/SOURCES.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/taliban/SOURCES.md",
+      "sha256": "570ec02d29699e8f60c0da47bad9fc2e43bc78fa124893257b1697a5915adaff",
+      "bytes": 42727,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:longinus",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/longinus/SOURCES.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/longinus/SOURCES.md",
+      "sha256": "fef7c015ad3289c03dd411db381bcd800561de1a24ec451d5e5c06e5577d560d",
+      "bytes": 33421,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:harness",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/harness/SOURCES.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/harness/SOURCES.md",
+      "sha256": "6a0d8fa40571c2c99fffc46176c2e12a7c50f04e84a8fae6771e3cfb935901d8",
+      "bytes": 11236,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:apt",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/apt/README.md",
+      "sha256": "9f946378ee0a6fc223f7086e3963c2da8252a5f8cdb5b933fe98a41eb9e3ab88",
+      "bytes": 3591,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:tpa",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/tpa/README.md",
+      "sha256": "f41a0688b3de2442041aa75e251d5913e5717cb05cf96dee3a5897309bf2bfb9",
+      "bytes": 5492,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:apt-sa",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/sa/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/apt/sa/README.md",
+      "sha256": "fc6d19d52352e984531504097b29b1cd93e5390da5fd24efc59afffdaaa81eee",
+      "bytes": 2277,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:apt-scw",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/scw/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/apt/scw/README.md",
+      "sha256": "b8f2fe36edcf232bdee2b413da131c2416542911b5b56386e5d61987bc97f760",
+      "bytes": 3019,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:apt-sp",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/sp/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/apt/sp/README.md",
+      "sha256": "07a0668b0672cc2d92c506c87932ed48b459dbe75c1548132d4989666f6caff0",
+      "bytes": 2771,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:apt-st",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/st/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/apt/st/README.md",
+      "sha256": "8d47033e49e932b94044fbd276726b42933e4dcc12872bdd66fa440552cb4700",
+      "bytes": 2847,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:harness-readme",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/harness/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/harness/README.md",
+      "sha256": "22ed66ae90e4b288a913a06b7b4a748ae38a1b2b7fe056a132c14f2a76cb551e",
+      "bytes": 4555,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:tpa-sp",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/sp/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/tpa/sp/README.md",
+      "sha256": "66fb0fdbdf40330dcbc8a3ca4d068316c66e079d834ba687f4e69389df438864",
+      "bytes": 2922,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:tpa-st",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/st/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/tpa/st/README.md",
+      "sha256": "e0603fe1f72b2efe44c1d4fec09f5570e01930e7eb84e290f956500b70a71162",
+      "bytes": 2492,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:tpa-ta",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/ta/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/tpa/ta/README.md",
+      "sha256": "0c7d0d9187db1544b92bd3f85645f75b610d380aaa58203b2b0362b38569bfca",
+      "bytes": 3948,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:sym:tpa-tcw",
+      "local_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/tcw/README.md",
+      "original_repository": "https://github.com/gj3447/symposium",
+      "original_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "original_path": "METAHUMOTONIC/BHGMAN/tpa/tcw/README.md",
+      "sha256": "9234bc6d7e99a29c01a496904516c8749f606f25d837e8f71d72c6f29836fc4c",
+      "bytes": 2636,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:tfg:role-request",
+      "local_path": "sources/THE_GREAT_FLOW/data/apostles/20261003-role-request.json",
+      "original_repository": "https://github.com/gj3447/the-great-flow",
+      "original_revision": "55fbcf93282e94cb82fa24849c3ec469be26ecbe",
+      "original_path": "data/apostles/20261003-role-request.json",
+      "sha256": "e04d6248a3610f786a6150ed1bf6c0a9061d16a3d07945c495bb608af2103509",
+      "bytes": 7917,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "USER_PRIMARY"
+    },
+    {
+      "uid": "source:history:essence-readme",
+      "local_path": "history/bhgman_essence/README.md",
+      "original_repository": "https://github.com/gj3447/bhgman_essence",
+      "original_revision": "1f65a229f421bb984bf0406289a657b94ce694e0",
+      "original_path": "README.md",
+      "sha256": "e7852b0ece69e7e2d44e05f0c98996bf6abb588862dd78ac6e22c424d0bc68bf",
+      "bytes": 6582,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:history:omc-relation",
+      "local_path": "history/bhgman_essence/essence/02-relation-to-omc.md",
+      "original_repository": "https://github.com/gj3447/bhgman_essence",
+      "original_revision": "b3ea19e7a101c53f95954045050d91aa8f74062e",
+      "original_path": "essence/02-relation-to-omc.md",
+      "sha256": "fa289035102a229778561c6a719501b51e1d9e539447e4db92062d4c205ff274",
+      "bytes": 6583,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "source:user:unification",
+      "local_path": "USER_HANDOFF.txt",
+      "original_repository": "https://github.com/gj3447/the-great-flow",
+      "original_revision": "135612ed15174588ca2c1af32b856b6d003fad05",
+      "original_path": "data/apostles/20261007-hoh-backend-bhgman-unification-user.txt",
+      "sha256": "82c47ec210c398a7c2e31464f7e93361ba8fa48e9ee2d96ba43272b9216d43d0",
+      "bytes": 297,
+      "artifact_authority": "SOURCE_DOCUMENT",
+      "content_authority": "USER_PRIMARY"
+    },
+    {
+      "uid": "guide:current:what-is",
+      "local_path": "docs/WHAT_IS.md",
+      "original_repository": "https://github.com/gj3447/bhgman",
+      "original_revision": "0ab9a5bafc5934db6c7d12d3cbbe49982a4a7c0d",
+      "original_path": "docs/WHAT_IS.md",
+      "sha256": "e6b1f73e96cf111375bab794d313f740300451f6907d6f72d8c504d8a2719594",
+      "bytes": null,
+      "artifact_authority": "SECONDARY_AI",
+      "content_authority": "SECONDARY_AI"
+    },
+    {
+      "uid": "guide:current:how-to",
+      "local_path": "docs/HOW_TO.md",
+      "original_repository": "https://github.com/gj3447/bhgman",
+      "original_revision": "0ab9a5bafc5934db6c7d12d3cbbe49982a4a7c0d",
+      "original_path": "docs/HOW_TO.md",
+      "sha256": "edf049987be27b8ff907b62ddcb09685996501e7560e855f8a3b4fc887414565",
+      "bytes": null,
+      "artifact_authority": "SECONDARY_AI",
+      "content_authority": "SECONDARY_AI"
+    },
+    {
+      "uid": "guide:current:research-map",
+      "local_path": "docs/RESEARCH_MAP.md",
+      "original_repository": "https://github.com/gj3447/bhgman",
+      "original_revision": "0ab9a5bafc5934db6c7d12d3cbbe49982a4a7c0d",
+      "original_path": "docs/RESEARCH_MAP.md",
+      "sha256": "4f738436baaba5dbfc209c30ecf0680b46ce775d90245f30d398d2059c180f46",
+      "bytes": null,
+      "artifact_authority": "SECONDARY_AI",
+      "content_authority": "SECONDARY_AI"
+    },
+    {
+      "uid": "guide:history:index",
+      "local_path": "history/bhgman_essence/docs/APOSTLE_INDEX.md",
+      "original_repository": "https://github.com/gj3447/bhgman_essence",
+      "original_revision": "b3ea19e7a101c53f95954045050d91aa8f74062e",
+      "original_path": "docs/APOSTLE_INDEX.md",
+      "sha256": "d6cad1d18bc3f9fa550d8c89000280c340821802ad4703eb12249e41ea1cd4e9",
+      "bytes": null,
+      "artifact_authority": "SECONDARY_AI",
+      "content_authority": "SECONDARY_AI"
+    },
+    {
+      "uid": "guide:history:what-is",
+      "local_path": "history/bhgman_essence/docs/APOSTLE_WHAT_IS.md",
+      "original_repository": "https://github.com/gj3447/bhgman_essence",
+      "original_revision": "b3ea19e7a101c53f95954045050d91aa8f74062e",
+      "original_path": "docs/APOSTLE_WHAT_IS.md",
+      "sha256": "81920ab713e3af46a506bcfea660fcb9bebbd72712984aca99df83a806280668",
+      "bytes": null,
+      "artifact_authority": "SECONDARY_AI",
+      "content_authority": "SECONDARY_AI"
+    },
+    {
+      "uid": "guide:history:how-to",
+      "local_path": "history/bhgman_essence/docs/APOSTLE_HOW_TO.md",
+      "original_repository": "https://github.com/gj3447/bhgman_essence",
+      "original_revision": "b3ea19e7a101c53f95954045050d91aa8f74062e",
+      "original_path": "docs/APOSTLE_HOW_TO.md",
+      "sha256": "b4a4ff2f4637970b677fb68ba4ca7137c6d49a05bdf2c4f6a660218ea95b247f",
+      "bytes": null,
+      "artifact_authority": "SECONDARY_AI",
+      "content_authority": "SECONDARY_AI"
+    },
+    {
+      "uid": "guide:history:research-map",
+      "local_path": "history/bhgman_essence/docs/APOSTLE_RESEARCH_MAP.md",
+      "original_repository": "https://github.com/gj3447/bhgman_essence",
+      "original_revision": "b3ea19e7a101c53f95954045050d91aa8f74062e",
+      "original_path": "docs/APOSTLE_RESEARCH_MAP.md",
+      "sha256": "3336282848dcfb08b2f2fc84fc1cf7d79da1a52d6912e3f1f9d7615441c48339",
+      "bytes": null,
+      "artifact_authority": "SECONDARY_AI",
+      "content_authority": "SECONDARY_AI"
+    }
+  ],
+  "nodes": [
+    {
+      "uid": "bhgman:persona:airplane-man",
+      "type": "Persona",
+      "label": "비행기맨 / Airplane Man",
+      "stable_entity_uid": "sym:Character:비행기맨",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:core"
+      ]
+    },
+    {
+      "uid": "bhgman:topic:vertical-axis-4-8-10",
+      "type": "RelationTopic",
+      "label": "#4/#8/#10 수직축 hyperedge",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:core",
+        "source:sym:index"
+      ],
+      "qualified_participants": [
+        {
+          "source_designator": "#4 비행기맨",
+          "role": "apex"
+        },
+        {
+          "source_designator": "#8 OM",
+          "role": "substrate"
+        },
+        {
+          "source_designator": "#10 깊바존",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "uid": "bhgman:topic:five-phase-documents",
+      "type": "Topic",
+      "label": "5위상 문서 묶음",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:index",
+        "source:sym:seedman",
+        "source:sym:prometheus",
+        "source:sym:naesengmoon",
+        "source:sym:longinus",
+        "source:sym:harness"
+      ]
+    },
+    {
+      "uid": "bhgman:topic:seven-legion-commanders",
+      "type": "Topic",
+      "label": "7군단장 roster",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:core"
+      ]
+    },
+    {
+      "uid": "bhgman:topic:jaebaeman-nary-plan",
+      "type": "Topic",
+      "label": "재배맨 n-ary 계획",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:seedman"
+      ]
+    },
+    {
+      "uid": "bhgman:topic:apt-tpa",
+      "type": "Topic",
+      "label": "APT/TPA 자료 흐름",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:apt",
+        "source:sym:tpa"
+      ]
+    },
+    {
+      "uid": "bhgman:topic:historical-essence",
+      "type": "HistoricalTopic",
+      "label": "이전 essence 홈",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:history:essence-readme"
+      ]
+    },
+    {
+      "uid": "bhgman:kg-ref:jaebaeman-plan",
+      "type": "ExternalKGRecord",
+      "label": "재배맨 동사: 계획",
+      "external_uid": "sym:UserPrimaryCanon:verdict-jaebaeman-word-is-plan-not-dispatch-2026-06-07",
+      "authority": "USER_PRIMARY",
+      "state": "READ_ONLY_REFERENCE",
+      "observation_scope": "READ_ONLY_LOOKUP_NOT_SNAPSHOT",
+      "observed_at": "2026-10-07",
+      "query": "sym:UserPrimaryCanon:verdict-jaebaeman-word-is-plan-not-dispatch-2026-06-07",
+      "returned_authority": "USER_PRIMARY"
+    },
+    {
+      "uid": "bhgman:kg-ref:longinus-source",
+      "type": "ExternalKGRecord",
+      "label": "Longinus 위상 원전 레코드",
+      "external_uid": "sym:SourceDocument:bhgman-longinus-phase-sources-2026-04-29",
+      "authority": "SYSTEM_DERIVED",
+      "state": "READ_ONLY_REFERENCE",
+      "observation_scope": "READ_ONLY_LOOKUP_NOT_SNAPSHOT",
+      "observed_at": "2026-10-07",
+      "query": "sym:SourceDocument:bhgman-longinus-phase-sources-2026-04-29",
+      "returned_authority": "SYSTEM_DERIVED"
+    }
+  ],
+  "edges": [
+    {
+      "uid": "bhgman:edge:persona-participates-vertical-axis",
+      "type": "PARTICIPATES_IN",
+      "source": "bhgman:persona:airplane-man",
+      "target": "bhgman:topic:vertical-axis-4-8-10",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:core",
+        "source:sym:index"
+      ]
+    },
+    {
+      "uid": "bhgman:edge:persona-reading-five-phases",
+      "type": "HAS_READING_TOPIC",
+      "source": "bhgman:persona:airplane-man",
+      "target": "bhgman:topic:five-phase-documents",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:index",
+        "source:sym:seedman",
+        "source:sym:prometheus",
+        "source:sym:naesengmoon",
+        "source:sym:longinus",
+        "source:sym:harness"
+      ]
+    },
+    {
+      "uid": "bhgman:edge:persona-roster-seven-commanders",
+      "type": "HAS_ROSTER_TOPIC",
+      "source": "bhgman:persona:airplane-man",
+      "target": "bhgman:topic:seven-legion-commanders",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:core"
+      ]
+    },
+    {
+      "uid": "bhgman:edge:persona-reading-jaebaeman",
+      "type": "HAS_READING_TOPIC",
+      "source": "bhgman:persona:airplane-man",
+      "target": "bhgman:topic:jaebaeman-nary-plan",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:seedman"
+      ]
+    },
+    {
+      "uid": "bhgman:edge:persona-reading-apt-tpa",
+      "type": "HAS_READING_TOPIC",
+      "source": "bhgman:persona:airplane-man",
+      "target": "bhgman:topic:apt-tpa",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:sym:apt",
+        "source:sym:tpa"
+      ]
+    },
+    {
+      "uid": "bhgman:edge:persona-historical-essence",
+      "type": "HAS_HISTORICAL_HOME",
+      "source": "bhgman:persona:airplane-man",
+      "target": "bhgman:topic:historical-essence",
+      "authority": "SOURCE_DOCUMENT",
+      "sources": [
+        "source:history:essence-readme",
+        "source:user:unification"
+      ]
+    },
+    {
+      "uid": "bhgman:edge:jaebaeman-references-plan-verdict",
+      "type": "REFERENCES",
+      "source": "bhgman:topic:jaebaeman-nary-plan",
+      "target": "bhgman:kg-ref:jaebaeman-plan",
+      "authority": "SECONDARY_AI",
+      "state": "READ_ONLY_REFERENCE",
+      "sources": [
+        "source:sym:seedman"
+      ]
+    },
+    {
+      "uid": "bhgman:edge:five-phases-references-longinus-record",
+      "type": "REFERENCES",
+      "source": "bhgman:topic:five-phase-documents",
+      "target": "bhgman:kg-ref:longinus-source",
+      "authority": "SECONDARY_AI",
+      "state": "READ_ONLY_REFERENCE",
+      "sources": [
+        "source:sym:longinus"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "uid": "bhgman:claim:vertical-axis-is-ternary",
+      "authority": "SECONDARY_AI",
+      "status": "SOURCE_SUMMARY",
+      "text": "수직축은 #4·#8·#10의 3원 관계로 탐색해야 하며, 이진 문장은 그 투영으로만 취급한다.",
+      "source_quote": "3원 관계.",
+      "source_pins": [
+        "source:sym:core",
+        "source:sym:index"
+      ]
+    },
+    {
+      "uid": "bhgman:claim:five-phase-seven-roster-distinct",
+      "authority": "SECONDARY_AI",
+      "status": "SOURCE_SUMMARY",
+      "text": "5위상 자료 묶음과 7군단장 roster는 원전에서 서로 다른 시간·분류 단위로 나타나므로 일대일 대응을 가정하지 않는다.",
+      "source_quote": "5→7로 확장",
+      "source_pins": [
+        "source:sym:core",
+        "source:sym:index"
+      ]
+    },
+    {
+      "uid": "bhgman:claim:essence-is-historical-home",
+      "authority": "SECONDARY_AI",
+      "status": "HISTORICAL_NAVIGATION",
+      "text": "이전 essence 저장소는 단일 bhgman 본체에 역사와 Git 조상으로 보존됐으며, 활성 본체 또는 새 실행 권한이 아니다.",
+      "source_quote": "bhgman 에센스가 또 따로있는건 아니지",
+      "source_pins": [
+        "source:user:unification",
+        "source:history:essence-readme"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "uid": "bhgman:open:five-phase-seven-commander-mapping",
+      "question": "5위상과 7군단장의 대응 관계는 무엇인가?",
+      "state": "NOT_ASSERTED",
+      "sources": [
+        "source:sym:core",
+        "source:sym:index"
+      ]
+    },
+    {
+      "uid": "bhgman:open:eureka-occam-source",
+      "question": "Eureka와 Occam의 전용 phase 원전은 어디에 있는가?",
+      "state": "SOURCE_NOT_PRESENT_IN_THIS_REPOSITORY",
+      "sources": [
+        "source:sym:core"
+      ]
+    },
+    {
+      "uid": "bhgman:open:omc-final-relation",
+      "question": "OMC 상대측의 최종 관계와 분류는 무엇인가?",
+      "state": "NOT_ASSERTED",
+      "sources": [
+        "source:history:omc-relation"
+      ]
+    }
+  ],
+  "competency_queries": [
+    {
+      "uid": "bhgman:cq:persona-identity",
+      "question": "비행기맨의 안정 인물 UID는 무엇인가?",
+      "answer_uid": "bhgman:persona:airplane-man",
+      "source_pins": [
+        "source:sym:core"
+      ]
+    },
+    {
+      "uid": "bhgman:cq:vertical-axis-participants",
+      "question": "수직축의 참여자와 역할은 무엇인가?",
+      "answer_uid": "bhgman:topic:vertical-axis-4-8-10",
+      "source_pins": [
+        "source:sym:core",
+        "source:sym:index"
+      ]
+    },
+    {
+      "uid": "bhgman:cq:jaebaeman-reading-source",
+      "question": "재배맨의 n-ary 계획 자료는 어디에 있는가?",
+      "answer_uid": "bhgman:topic:jaebaeman-nary-plan",
+      "source_pins": [
+        "source:sym:seedman"
+      ]
+    }
+  ]
+}

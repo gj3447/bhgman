@@ -235,6 +235,17 @@
       "bytes": 297,
       "authority": "SOURCE_DOCUMENT",
       "content_authority": "USER_PRIMARY"
+    },
+    {
+      "uid": "apostle-document:b96a2684ba63b1ee98028f0f259ad66363a6971f286572782d1cd3628c776460",
+      "repository_path": "USER_PUBLICATION.txt",
+      "source_path": "data/apostles/20261007-persona-publication-user.txt",
+      "source_repository": "https://github.com/gj3447/the-great-flow",
+      "source_revision": "350220f97ac1104140a08af2d0d70fc6a004c4db",
+      "sha256": "60e80db3c70043865f8421e9a3f820714de673882ceb27feafe342b41f35b8e2",
+      "bytes": 392,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "USER_PRIMARY"
     }
   ],
   "guides": [
@@ -310,13 +321,37 @@
       }
     },
     {
-      "repository_path": "README.md",
+      "repository_path": "README.before-publication.md",
       "sha256": "af487853200f6bf683bb33f3794d1e999471c43e12d6e78b56f489de8bc32494",
-      "authority": "SECONDARY_AI"
+      "authority": "SECONDARY_AI",
+      "identity_origin": {
+        "repository_uid": "github:repo:1408294645",
+        "repository_path": "README.md",
+        "sha256": "af487853200f6bf683bb33f3794d1e999471c43e12d6e78b56f489de8bc32494",
+        "content_snapshot": {
+          "path": "data/apostles/20261007-unified-bhgman-content.json",
+          "sha256": "8e8a8091cbcf8584601ee687020d4ee7bde5cd60a91fb278e0b26a0e4ae3d26b"
+        }
+      }
     },
     {
       "repository_path": "docs/HANDOFF.md",
       "sha256": "d627c2b22a36933f01d01b43b72d809f09b8af798b14cc14f751ae5a33df8e53",
+      "authority": "SECONDARY_AI"
+    },
+    {
+      "repository_path": "README.md",
+      "sha256": "29a3c76c73753c1fc9a4c2b850c1fd019c002315568490e400baf75c173d8d0a",
+      "authority": "SECONDARY_AI"
+    },
+    {
+      "repository_path": "docs/RESEARCH_ATLAS.md",
+      "sha256": "fcc840467a5c388c9555edf31001640f40aac151de5a7a491fde230dc2d4fda2",
+      "authority": "SECONDARY_AI"
+    },
+    {
+      "repository_path": "LICENSE-NOTICE.md",
+      "sha256": "c95f38790cbf4b27e59639b8199b55e639206ddf0a6d99d5e7f9694ad5e9fd3a",
       "authority": "SECONDARY_AI"
     }
   ],
