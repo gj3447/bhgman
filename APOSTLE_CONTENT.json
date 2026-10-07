@@ -1,0 +1,241 @@
+{
+  "schema": "apostle-content/1",
+  "position": 4,
+  "repository": "gj3447/bhgman",
+  "source_repository": "https://github.com/gj3447/symposium",
+  "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+  "documents": [
+    {
+      "uid": "apostle-document:c0ba458f8ef5dfaa7878b4296ac2f9494c4bd8b2676c2bea00b37a4e360d283e",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/INDEX.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/INDEX.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "2bd7eb9844ac7ce4248bed9934cfa49b352671dcba96029b2ed37cbb5861ef82",
+      "bytes": 10866,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:740c85a56190b899084d8704140a4682b7581b34b5d3ae2394b741572a879bad",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/SOURCES.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/SOURCES.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "c250458af3aa1d64da3e586ed455ee449ccde6fa74742fc7e30bf1bf45edf461",
+      "bytes": 13965,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:3c4a06992b4b63346f668fd07e5ada5c8f138783a10fee5cef75edca04f74eb8",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/apt/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "9f946378ee0a6fc223f7086e3963c2da8252a5f8cdb5b933fe98a41eb9e3ab88",
+      "bytes": 3591,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:36855ad494f1997e45340f33ab15b0a2397f9340c9c91f15d93381376ef202ba",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/sa/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/apt/sa/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "fc6d19d52352e984531504097b29b1cd93e5390da5fd24efc59afffdaaa81eee",
+      "bytes": 2277,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:d9ad88fac87e68ac280415509db07d0fe1271ba4036240dba1f4caea6fea08cd",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/scw/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/apt/scw/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "b8f2fe36edcf232bdee2b413da131c2416542911b5b56386e5d61987bc97f760",
+      "bytes": 3019,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:634720d33428b857cb8b1d7cfb4535f5652696b45e6199ad4eb87c84adb7e265",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/sp/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/apt/sp/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "07a0668b0672cc2d92c506c87932ed48b459dbe75c1548132d4989666f6caff0",
+      "bytes": 2771,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:3fa14e24fd5b0c3b9b83d5106c313267dd1fd5ba25ad69b2cdb9d975396dddb6",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/apt/st/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/apt/st/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "8d47033e49e932b94044fbd276726b42933e4dcc12872bdd66fa440552cb4700",
+      "bytes": 2847,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:47c4c55cc3fa9ac1b40edfab5bc4cd3ed3f9f97781364fb2dbd269a72fbdbfe7",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/harness/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/harness/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "22ed66ae90e4b288a913a06b7b4a748ae38a1b2b7fe056a132c14f2a76cb551e",
+      "bytes": 4555,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:c19cc2be2f41ad431b7c6096e49fa5c50fa56dba32461554ad13996feb1a8b25",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/harness/SOURCES.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/harness/SOURCES.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "6a0d8fa40571c2c99fffc46176c2e12a7c50f04e84a8fae6771e3cfb935901d8",
+      "bytes": 11236,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:ed9821c5a967360ed545653ffe809ccb856bccaa3252ea18c3f96feba2161ab7",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/longinus/SOURCES.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/longinus/SOURCES.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "fef7c015ad3289c03dd411db381bcd800561de1a24ec451d5e5c06e5577d560d",
+      "bytes": 33421,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:69bcc3c079eb57e000b45281992135121bfe4db40a99c13b6e46126fdce73d52",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/prometheus/SOURCES.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/prometheus/SOURCES.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "d46eb94b550f939dd6cd8a3d704c4071c27222d75151d3090df2e3e224d42618",
+      "bytes": 35431,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:e621e59fe093e37aeab133fa868773cc0e6fe3719f49fa4c79f12ee2a777cf76",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/seedman/SOURCES.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/seedman/SOURCES.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "120b77610e4f2c7628fc4bc21162e063f22ee64c57741bae4cfc4e7eac0fe7d2",
+      "bytes": 39237,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:1f24bd0bd3612a3a3791230b292279fea3ba90197f7462a9bcdda17db749ddf4",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/taliban/SOURCES.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/taliban/SOURCES.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "570ec02d29699e8f60c0da47bad9fc2e43bc78fa124893257b1697a5915adaff",
+      "bytes": 42727,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:3db5199fd8d9fcbf54371007a5be4db9a8f714241b99d61318bb98ffcdc2662e",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/tpa/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "f41a0688b3de2442041aa75e251d5913e5717cb05cf96dee3a5897309bf2bfb9",
+      "bytes": 5492,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:626eeab30e07b247351d6fa6d1e9f1735a667c5db875b208b9b741361a2abb92",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/sp/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/tpa/sp/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "66fb0fdbdf40330dcbc8a3ca4d068316c66e079d834ba687f4e69389df438864",
+      "bytes": 2922,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:a940b21f9312f44e1af3ce566176cee1c4dd87a0562a179e31785f4e2e6cdc4a",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/st/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/tpa/st/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "e0603fe1f72b2efe44c1d4fec09f5570e01930e7eb84e290f956500b70a71162",
+      "bytes": 2492,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:234e32f1f11fc78ce6dc4b2080fb91eb579cd6763943d8d00862cf17408bb4fb",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/ta/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/tpa/ta/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "0c7d0d9187db1544b92bd3f85645f75b610d380aaa58203b2b0362b38569bfca",
+      "bytes": 3948,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:278523cc9f593788676dfb59ace8e436101b3c8067ed034973752cb0108cf11f",
+      "repository_path": "sources/SYMPOSIUM/METAHUMOTONIC/BHGMAN/tpa/tcw/README.md",
+      "source_path": "METAHUMOTONIC/BHGMAN/tpa/tcw/README.md",
+      "source_repository": "https://github.com/gj3447/symposium",
+      "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+      "sha256": "9234bc6d7e99a29c01a496904516c8749f606f25d837e8f71d72c6f29836fc4c",
+      "bytes": 2636,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "UNSPECIFIED"
+    },
+    {
+      "uid": "apostle-document:72e31bd9764253c75550e25053d6332c83d68e63fa6c60000b969656ec163c69",
+      "repository_path": "sources/THE_GREAT_FLOW/data/apostles/20261003-role-request.json",
+      "source_path": "data/apostles/20261003-role-request.json",
+      "source_repository": "https://github.com/gj3447/the-great-flow",
+      "source_revision": "55fbcf93282e94cb82fa24849c3ec469be26ecbe",
+      "sha256": "e04d6248a3610f786a6150ed1bf6c0a9061d16a3d07945c495bb608af2103509",
+      "bytes": 7917,
+      "authority": "SOURCE_DOCUMENT",
+      "content_authority": "USER_PRIMARY"
+    }
+  ],
+  "guides": [
+    {
+      "repository_path": "docs/WHAT_IS.md",
+      "sha256": "e6b1f73e96cf111375bab794d313f740300451f6907d6f72d8c504d8a2719594",
+      "authority": "SECONDARY_AI"
+    },
+    {
+      "repository_path": "docs/HOW_TO.md",
+      "sha256": "edf049987be27b8ff907b62ddcb09685996501e7560e855f8a3b4fc887414565",
+      "authority": "SECONDARY_AI"
+    },
+    {
+      "repository_path": "docs/RESEARCH_MAP.md",
+      "sha256": "4f738436baaba5dbfc209c30ecf0680b46ce775d90245f30d398d2059c180f46",
+      "authority": "SECONDARY_AI"
+    }
+  ],
+  "raw_import_inventory": {
+    "source_revision": "1f2727a0c0d8d9703193bee6406db21d2fd549dd",
+    "source_path": "METAHUMOTONIC/BHGMAN",
+    "file_count": 18,
+    "import_policy": "COMMIT_BYTES; UTF-8 documents under 1 MiB are indexed; source bytes are retained unchanged."
+  }
+}
