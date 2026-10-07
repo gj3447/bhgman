@@ -59,5 +59,16 @@
       "repository_path": "sources/THE_GREAT_FLOW/data/apostles/20261003-role-request.json"
     }
   },
-  "content_manifest": "APOSTLE_CONTENT.json"
+  "content_manifest": "APOSTLE_CONTENT.json",
+  "repository_scope": {
+    "state": "UNIFIED_PERSONA",
+    "primary_repository": "https://github.com/gj3447/bhgman",
+    "integrated_repository": "https://github.com/gj3447/bhgman_essence",
+    "integration_commit": "2944e50a68739c51778f4b14de0e5c269ca44df5",
+    "user_source": {
+      "path": "USER_HANDOFF.txt",
+      "sha256": "82c47ec210c398a7c2e31464f7e93361ba8fa48e9ee2d96ba43272b9216d43d0",
+      "authority": "USER_PRIMARY"
+    }
+  }
 }
